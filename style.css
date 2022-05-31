@@ -1,0 +1,199 @@
+.fab, .fas{
+	color: #3399ff;
+}
+
+ 
+
+.fab:hover{
+	color: blue;
+}
+
+.appoint{
+	border: transparent;
+	border-radius: 20px;
+	background-color: #1977cc;
+	color: white; 
+}
+.hero-bg{
+	background-image:url(img/hero-bg.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 86vh;
+}
+.get-started{
+	border: transparent;
+	padding: 0px 20px;
+	border-radius: 20px;
+	background-color: blue;
+	color: white; 
+}
+
+
+
+.hero-bg-content{
+	padding: 15% 0px;
+}
+
+.hero-bg-content h2,h4{
+	padding: 10px 0px;
+
+	color: #336699;
+}
+
+.btn-more{
+	border: transparent;
+	padding: 0px 20px;
+	border-radius: 20px;
+	background-color: #0066ff;
+	color: white; 
+}
+
+.btn-more:hover{
+	background-color: gold;
+	color: white;
+}
+
+.lifted{
+	margin-top: -10%;
+}
+.lift{
+	margin-top: 5%;
+}
+
+.about{
+	background-image: url(img/about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 86vh;
+	}
+
+.bg-white h2{
+ color: #004d99;
+}
+
+.calender{
+	background-color: #e6eeff;
+	margin-top: 20px;
+}
+
+.services:hover{
+color: green;
+text-decoration: none;
+}
+
+.appointment{
+	background-color: #e6eeff;
+	margin-top: 20px;
+}
+
+.accord{
+background-color: #e6eeff;
+margin-top: 20px;
+}
+.foot{
+background-color: #e6eeff;
+margin-top: 20px;
+}
+
+body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+
+  div.col-8 div {
+    height: 50px;
+  }
+  
+  .appointment h2::before {
+  	content: 'w';
+  	position: absolute;
+  	bottom: 3px;
+  	height: 4px;
+  	width: 120px;
+  	left: calc(50% - 60px);
+  	display: block;
+  	background-color: blue;
+  	margin: -10px 0;
+  }
+
+.appointment h2::after {
+  	content: 'x';
+  	position: absolute;
+  	bottom: 0;
+  	height: 3px;
+  	width: 40px;
+  	left: calc(50% - 20px);
+  	display: block;
+  	background-color: green;
+  	margin: -10px 0;
+  }
+.dbline{
+	position: relative;
+	padding-bottom: 20px;
+	
+}
+
+.dbline::before {
+	content: '';
+	width: 120px;
+	height: 1px;
+	background-color: #ddd;
+	position: absolute;
+	left: 50%;
+	bottom: 1px;
+	transform: translateX(-50%);
+}
+.dbline::after {
+	content: '';
+	width: 30px;
+	height: 2px;
+	background-color: #1977cc;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+
+}
+
+.im{
+	margin-left: -40px;
+	margin-right: 20px;
+}
+.card:hover{
+	color: white;
+  
+  background-color:  #004d99 !important;
+}
+
+	
+.inc:hover{
+	transform: scale(1.1);
+}
+
+body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-8 div {
+    height: 500px;
+  }
+
+
+  .frame{
+  	height: 200px;
+  	width: 100%
+  }
+
+  .department-scroll{
+  	position: relative;
+  	height: 230px;
+  	overflow-y: auto;
+  }
